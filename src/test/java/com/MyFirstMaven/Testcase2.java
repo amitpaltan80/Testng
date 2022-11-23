@@ -16,10 +16,10 @@ public class Testcase2 {
 		driver.navigate().to("https://www.saucedemo.com/");
 		Thread.sleep(2000);
 		driver.findElement(By.id("user-name")).sendKeys("standard_user");
-		Thread.sleep(2000);
+//		Thread.sleep(2000);
 		driver.findElement(By.id("password")).sendKeys("secret_sauce");
-		Thread.sleep(2000);
-		driver.findElement(By.id("login-button")).click();
+//		Thread.sleep(2000);
+//		driver.findElement(By.id("login-button")).click();
 
 	}
 
